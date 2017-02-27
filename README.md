@@ -6,3 +6,4 @@ It is configured (hardcoded for now) with HeartRateBpm and cadence tags.
 
 ## Usage
 node index.js input.tcx output.tcx
+
