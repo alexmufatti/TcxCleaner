@@ -4,12 +4,11 @@
   "description": "Node script to clean tcx files from heart rate and cadence",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "./node_modules/mocha/bin/mocha tests --recursive"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/npm/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
   },
   "author": "Alex Mufatti <mufatti@intre.it>",
   "license": "MIT",
@@ -17,6 +16,7 @@
     "regex": "^0.1.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
